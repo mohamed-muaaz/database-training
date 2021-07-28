@@ -1,0 +1,3 @@
+"table","columns"
+"Car","id brand model reg_number owner_id "
+"CarOwner","id name age address contact_number license_number "

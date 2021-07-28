@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="561" started-at="2021-07-28T05:46:09Z" finished-at="2021-07-28T05:46:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="561" started-at="2021-07-28T05:46:09Z" finished-at="2021-07-28T05:46:10Z">
+      <class name="DataUtility.UtilityTest">
+        <test-method status="PASS" signature="createUtilityObject()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="createUtilityObject" is-config="true" duration-ms="427" started-at="2021-07-28T11:16:09Z" finished-at="2021-07-28T11:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUtilityObject -->
+        <test-method status="PASS" signature="testFetchData(java.lang.String)[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="testFetchData" duration-ms="39" started-at="2021-07-28T11:16:09Z" description="This is the test case for testing the fetchData() method" data-provider="Queries" finished-at="2021-07-28T11:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select * from Car]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFetchData -->
+        <test-method status="PASS" signature="testFetchData(java.lang.String)[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="testFetchData" duration-ms="9" started-at="2021-07-28T11:16:10Z" description="This is the test case for testing the fetchData() method" data-provider="Queries" finished-at="2021-07-28T11:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select * from CarOwner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFetchData -->
+        <test-method status="PASS" signature="createUtilityObject()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="createUtilityObject" is-config="true" duration-ms="0" started-at="2021-07-28T11:16:10Z" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUtilityObject -->
+        <test-method status="PASS" signature="createUtilityObject()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="createUtilityObject" is-config="true" duration-ms="0" started-at="2021-07-28T11:16:10Z" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUtilityObject -->
+        <test-method status="PASS" signature="testFetchData(java.lang.String)[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="testFetchData" duration-ms="7" started-at="2021-07-28T11:16:10Z" description="This is the test case for testing the fetchData() method" data-provider="Queries" finished-at="2021-07-28T11:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select id, brand, model from Car]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFetchData -->
+        <test-method status="PASS" signature="createUtilityObject()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="createUtilityObject" is-config="true" duration-ms="0" started-at="2021-07-28T11:16:10Z" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUtilityObject -->
+        <test-method status="PASS" signature="testFetchData(java.lang.String)[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="testFetchData" duration-ms="7" started-at="2021-07-28T11:16:10Z" description="This is the test case for testing the fetchData() method" data-provider="Queries" finished-at="2021-07-28T11:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select Car.id, brand, model from Car join Carowner on Car.owner_id=CarOwner.id where license_number='0143526RY']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFetchData -->
+        <test-method status="PASS" signature="createUtilityObject()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="createUtilityObject" is-config="true" duration-ms="0" started-at="2021-07-28T11:16:10Z" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUtilityObject -->
+        <test-method status="PASS" signature="testFetchData(java.lang.String)[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="testFetchData" duration-ms="7" started-at="2021-07-28T11:16:10Z" description="This is the test case for testing the fetchData() method" data-provider="Queries" finished-at="2021-07-28T11:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[select * from CarOwner where name='John']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFetchData -->
+        <test-method status="PASS" signature="testRetrieveColumnNames([Ljava.lang.String;)[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="testRetrieveColumnNames" duration-ms="7" started-at="2021-07-28T11:16:10Z" description="This is the test case for testing the retrievColumnNames() method" data-provider="Tables" finished-at="2021-07-28T11:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5700d6b1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveColumnNames -->
+        <test-method status="PASS" signature="createUtilityObject()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="createUtilityObject" is-config="true" duration-ms="0" started-at="2021-07-28T11:16:10Z" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUtilityObject -->
+        <test-method status="PASS" signature="createUtilityObject()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="createUtilityObject" is-config="true" duration-ms="1" started-at="2021-07-28T11:16:10Z" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUtilityObject -->
+        <test-method status="PASS" signature="testRetrieveColumnNames([Ljava.lang.String;)[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="testRetrieveColumnNames" duration-ms="8" started-at="2021-07-28T11:16:10Z" description="This is the test case for testing the retrievColumnNames() method" data-provider="Tables" finished-at="2021-07-28T11:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6fd02e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveColumnNames -->
+        <test-method status="PASS" signature="testRetrieveColumnNames([Ljava.lang.String;)[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="testRetrieveColumnNames" duration-ms="8" started-at="2021-07-28T11:16:10Z" description="This is the test case for testing the retrievColumnNames() method" data-provider="Tables" finished-at="2021-07-28T11:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5bcab519]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveColumnNames -->
+        <test-method status="PASS" signature="createUtilityObject()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="createUtilityObject" is-config="true" duration-ms="0" started-at="2021-07-28T11:16:10Z" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUtilityObject -->
+        <test-method status="PASS" signature="createUtilityObject()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="createUtilityObject" is-config="true" duration-ms="0" started-at="2021-07-28T11:16:10Z" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUtilityObject -->
+        <test-method status="PASS" signature="testRetrieveTableNames()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="testRetrieveTableNames" duration-ms="7" started-at="2021-07-28T11:16:10Z" description="This is the test case for testing the retrieveTableNames() method" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveTableNames -->
+        <test-method status="PASS" signature="disconnectDatabase()[pri:0, instance:DataUtility.UtilityTest@77f03bb1]" name="disconnectDatabase" is-config="true" duration-ms="1" started-at="2021-07-28T11:16:10Z" finished-at="2021-07-28T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDatabase -->
+      </class> <!-- DataUtility.UtilityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
